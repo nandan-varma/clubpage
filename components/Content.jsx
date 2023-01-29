@@ -7,7 +7,7 @@ import contentData from '../utils/contentData';
 const Content = () => (
   <div className="next-steps my-5" data->
     <h2 className="my-5 text-center" data->
-      What can I do next?
+      Some Things
     </h2>
     <Row className="d-flex justify-content-between" data->
       {contentData.map((col, i) => (
