@@ -3,7 +3,7 @@
 ## Getting Started
 
 
-install npm and Next.js by
+install npm and Next.js:
 ```bash
 winget install OpenJS.NodeJS
 # install NodeJS
