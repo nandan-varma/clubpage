@@ -12,10 +12,10 @@ const contentData = [
       'webpage for bvrit things'
   },
   {
-    title: 'Attack Protection',
+    title: 'Bvrit portal',
     link: 'https://bvrit.edu.in',
     description:
-      'bvrit portal'
+      'Webpage for all the important stuff regarding students'
   },
   {
     title: 'something important',

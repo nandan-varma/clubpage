@@ -118,12 +118,16 @@ p code {
 }
 
 .nav-item.dropdown .dropdown-item .navbar-item {
-  width: 100%;
+  width: 60%;
   padding: .55rem 1.5rem;
 }
 
 .result-block-container .result-block {
   opacity: 1;
+}
+
+.mr-2 , .mr-3{
+  height: 1.5rem;
 }
 
 
