@@ -138,9 +138,13 @@ p code {
   top: 20px;
 }
 
+.nav-item.dropdown .dropdown-menu{
+  right: 10px;
+}
+
 .nav-link{
   /* border: 1px solid black; */
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .nav-link::after{
