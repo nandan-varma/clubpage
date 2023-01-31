@@ -13,6 +13,7 @@ import {
   DropdownItem
 } from 'reactstrap';
 import { useUser } from '@auth0/nextjs-auth0/client';
+import styles from '@/styles/Home.module.css'
 
 import PageLink from './PageLink';
 import AnchorLink from './AnchorLink';

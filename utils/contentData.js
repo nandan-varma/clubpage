@@ -1,6 +1,6 @@
 const contentData = [
   {
-    title: 'Temporary Clu page',
+    title: 'Temporary Club page',
     link: 'https://metarics.github.io',
     description:
       'static html page. nothing fancy or anything just some HTML,CSS,JS'

@@ -130,10 +130,38 @@ p code {
   height: 1.5rem;
 }
 
+.nav-item.dropdown{
+  /* border: 3px dotted black; */
+  background-color: white;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.nav-link{
+  /* border: 1px solid black; */
+  text-decoration: none;
+}
+
+.nav-link::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background-color: blue;
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+.nav-link:hover::after{
+  width:100%;
+}
+
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 @media (prefers-color-scheme: dark) {

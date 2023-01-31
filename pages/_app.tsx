@@ -1,9 +1,9 @@
-import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { UserProvider } from '@auth0/nextjs-auth0/client';
 import Layout from '../components/Layout';
-import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/styles.css'
+import 'bootstrap/dist/css/bootstrap.css'
+import '@/styles/globals.css'
 
 import initFontAwesome from '../utils/initFontAwesome';
 
