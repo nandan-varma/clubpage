@@ -14,6 +14,8 @@ npm install -g next
 To run the development server:
 
 ```bash
+npm install
+# install dependencies
 npm run dev
 ```
 

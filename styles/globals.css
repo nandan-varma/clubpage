@@ -158,10 +158,9 @@ p code {
   width:100%;
 }
 
-
 a {
   color: inherit;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
