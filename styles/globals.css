@@ -147,7 +147,7 @@ p code {
   text-decoration: none !important;
 }
 
-.nav-link::after{
+/* .nav-link::after{
   content: '';
   width: 0;
   height: 3px;
@@ -156,12 +156,15 @@ p code {
   left:0;
   bottom: -6px;
   transition: 0.5s;
-}
+} */
 
-.nav-link:hover::after{
+/* .nav-link:hover::after{
   width:100%;
-}
+} */
 
+.nav-link:hover{
+  text-shadow: 0rem 0.6rem 0.3rem grey;
+}
 a {
   color: inherit;
   text-decoration: none;

@@ -35,7 +35,6 @@ const NavBar = () => {
                   Home
                 </PageLink>
               </NavItem>
-              {user && (
                 <>
                   <NavItem>
                     <PageLink href="/events" className="nav-link" >
@@ -53,7 +52,7 @@ const NavBar = () => {
                     </PageLink>
                   </NavItem>
                 </>
-              )}
+              
             </Nav>
             <Nav className="d-none d-md-block" navbar>
               {!isLoading && !user && (

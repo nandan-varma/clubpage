@@ -6,7 +6,7 @@ const Hero = () => (
   <div className="hero my-5 text-center" data->
     <Logo  />
     <h1 className="mb-4" data->
-      Club Webpage
+      CLUB WEBPAGE
     </h1>
 
     <p className="lead" data->
