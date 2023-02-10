@@ -87,10 +87,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-}
-
 code {
   white-space: pre-wrap; 
   word-break: break-all; 
@@ -170,8 +166,3 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
