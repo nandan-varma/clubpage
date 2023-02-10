@@ -112,8 +112,14 @@ body{
 }
 
 .event{
-    padding: 2rem;
+    border: 0.16rem solid rgb(196, 196, 196);
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(196,196,196,0.8);
     white-space: pre-line;  
+}
+
+.registerlink{
+    white-space: pre-line !important;  
 }
 
 @media (min-width:576px) {
@@ -258,7 +264,6 @@ footer .logo {
 } */
 
 .hero p.lead {
-    margin-bottom: 10rem;
     font-size: 1.45rem; 
 }
 

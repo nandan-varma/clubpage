@@ -42,8 +42,8 @@ const NavBar = () => {
                     </PageLink>
                   </NavItem>
                   <NavItem>
-                    <PageLink href="/updates" className="nav-link" >
-                      Updates
+                    <PageLink href="/references" className="nav-link" >
+                    References
                     </PageLink>
                   </NavItem>
                   <NavItem>
@@ -54,7 +54,7 @@ const NavBar = () => {
                 </>
               
             </Nav>
-            <Nav className="d-none d-md-block" navbar>
+            {/* <Nav className="d-none d-md-block" navbar>
               {!isLoading && !user && (
                 <NavItem id="qsLoginBtn">
                   <AnchorLink
@@ -145,7 +145,7 @@ const NavBar = () => {
                   </AnchorLink>
                 </NavItem>
               </Nav>
-            )}
+            )} */}
           </Collapse>
         </Container>
       </Navbar>

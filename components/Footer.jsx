@@ -13,7 +13,13 @@ const Footer = () => (
                 priority
               />
     <p data->
-      Suggestions?<a href="emailto:nandanvarma@icloud.com">Contact Me</a>
+      <br/>
+      Follow Us
+      <br/>
+      <a className="p-2" href="">Instagram</a>
+      <a className="p-2" href="">LinkedIn</a>
+      <a className="p-2" href="">Whatsapp</a>
+      
     </p>
   </footer>
 );

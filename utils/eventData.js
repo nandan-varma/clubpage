@@ -1,7 +1,13 @@
+
+export function getEvent(id){
+    return contentData[id];
+}
+
 const contentData = [
     {
+        id : 1,
         title: 'Promethean 2k22',
-        image: '',
+        image: '/event/promethean.jpg',
         link: 'https://play.google.com/store/apps/details?id=com.bvrit.promethean',
         description:
         `Hey everyone!
@@ -18,6 +24,7 @@ const contentData = [
         Hurry up!! and register now!😃
         `
     }, {
+        id : 2,
         title: 'Promethean 2k22',
         image: '',
         link: 'https://play.google.com/store/apps/details?id=com.bvrit.promethean',
@@ -36,6 +43,7 @@ const contentData = [
         Hurry up!! and register now!😃
         `
     },{
+        id : 3,
         title: 'Promethean 2k22',
         image: '',
         link: 'https://play.google.com/store/apps/details?id=com.bvrit.promethean',
@@ -54,6 +62,7 @@ const contentData = [
         Hurry up!! and register now!😃
         `
     },{
+        id : 4,
         title: 'Promethean 2k22',
         image: '',
         link: 'https://play.google.com/store/apps/details?id=com.bvrit.promethean',
@@ -72,6 +81,7 @@ const contentData = [
         Hurry up!! and register now!😃
         `
     },{
+        id : 5,
         title: 'Promethean 2k22',
         image: '',
         link: 'https://play.google.com/store/apps/details?id=com.bvrit.promethean',

@@ -4,7 +4,6 @@ import EventTable from '../components/EventTable'
 export default function Events() {
     return (
       <>
-        <hr />
       <EventTable />
       </>
     )
