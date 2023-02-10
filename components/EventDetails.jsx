@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router'
+import ErrorMessage from '../components/ErrorMessage'
 import eventData from '../utils/eventData';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -9,7 +10,8 @@ const EventTable = () => {
     const router = useRouter()
     const pageData = eventData[router.query?.pid];
     return (
-        <>
+        
+        pageData && <>
             <h2 data->{pageData.title}</h2>
             <p className="lead" data->{pageData.description}</p>
             <Image src={pageData.image} alt='event image' width='540' height='360' data-/>

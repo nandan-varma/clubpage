@@ -3,7 +3,7 @@ import React from 'react';
 import Logo from './Logo';
 
 const Hero = () => (
-  <div className="hero my-5 text-center" data->
+  <div className="hero text-center" data->
     <Logo  />
     <h1 className="mb-4" data->
       CLUB WEBPAGE

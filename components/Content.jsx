@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import contentData from '../utils/contentData';
 
 const Content = () => (
-  <div className="next-steps my-5" data->
-    <h2 className="my-5 text-center" data->
+  <div className="next-steps " data->
+    <h2 className=" text-center" data->
       Some Things
     </h2>
     <Row className="d-flex justify-content-between" data->

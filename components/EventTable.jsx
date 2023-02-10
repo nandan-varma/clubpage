@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 const EventTable = () => {
   return (
-  <div className="next-steps my-5" data->
-    <h2 className="my-5 text-center" data->
+  <div className="next-steps " data->
+    <h2 className=" text-center" data->
       Events
     </h2>
     <Row className="r-flex " data->
