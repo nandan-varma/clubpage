@@ -3,11 +3,11 @@ import Link from 'next/link';
 
 import NavBarItem from './NavBarItem';
 
-const PageLink = ({ children, href, className, icon, tabIndex, testId }) => {
+const PageLink = ({ children, href, className, icon, tabIndex }) => {
   return (
     <Link legacyBehavior href={href}>
       <a>
-        <NavBarItem href={href} className={className} icon={icon} tabIndex={tabIndex} testId={testId}>
+        <NavBarItem href={href} className={className} icon={icon} tabIndex={tabIndex}>
           {children}
         </NavBarItem>
       </a>
