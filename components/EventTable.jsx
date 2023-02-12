@@ -12,7 +12,7 @@ const EventTable = () => {
     </h2>
     <Row className="r-flex " data->
       {eventData.map((col, i) => (
-        <Col key={i} md={5} className="me-5 mb-4 event">
+        <Col key={i} md={5} className="me-5 mb-5 event">
           <Link href={{ pathname: '/eventpage', query: { pid: i } }}>
           <h6 className="p-2">
             <a href={col.link}>

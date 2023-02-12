@@ -16,7 +16,7 @@ const EventTable = () => {
             <p className="lead" data->{pageData.description}</p>
             <Image src={pageData.image} alt='event image' width='540' height='360' data-/>
             <hr/>
-            <Link href={pageData.link} className="m-3 p-3 btn btn-primary btn-margin registerlink">
+            <Link href={pageData.link} className="m-3 p-3 btn btn-primary btn-margin no-text-decor">
                 Register
             </Link>
         </>

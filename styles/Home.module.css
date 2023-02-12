@@ -8,12 +8,6 @@
   float: left;
 }
 
-.footer{
-  position:fixed;
-  bottom: 0;
-  font-size: 1.6rem;
-  width:100%;
-}
 
 .footchild{
   padding: 1.2rem;
