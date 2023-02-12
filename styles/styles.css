@@ -130,7 +130,7 @@ body {
     height: 100%;
     width: 100%;
     pointer-events: none;
-    background: url("../public/wallpaper.png") no-repeat;
+    background: url("/wallpaper.png") no-repeat;
     background-size: cover;
     opacity: 0.2;
     filter: blur(3px);
