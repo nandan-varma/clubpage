@@ -128,7 +128,7 @@ p code {
 
 .nav-item.dropdown{
   /* border: 3px dotted black; */
-  background-color: white;
+  background-color: transparent;
   position: absolute;
   right: 20px;
   top: 20px;

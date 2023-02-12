@@ -25,6 +25,7 @@
     "eslint-config-next": "13.1.6",
     "express": "^4.18.2",
     "express-jwt": "^8.0",
+    "fs": "^0.0.1-security",
     "helmet": "^6.0.1",
     "highlight.js": "^11.7.0",
     "jwks-rsa": "^3.0.0",
@@ -32,7 +33,14 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "reactstrap": "^9.1.5"
+    "reactstrap": "^9.1.5",
+    "rehype-sanitize": "^5.0.1",
+    "rehype-stringify": "^9.0.3",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.2",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "swr": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "18.11.18",
