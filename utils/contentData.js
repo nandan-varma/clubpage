@@ -1,27 +1,34 @@
 const contentData = [
   {
-    title: 'Temporary Clu page',
-    link: 'https://metarics.github.io',
+    title: 'What is this for?',
+    link: '#',
     description:
-      'static html page. nothing fancy or anything just some HTML,CSS,JS'
+      'Club webpage which might be helpful to reach your final goal ;)'
   },
   {
-    title: 'BVRIT webpage',
-    link: 'https://bvirt.ac.in',
+    title: 'How to use this webpage?',
+    link: '#',
     description:
-      'webpage for bvrit things'
+      'Events tab for events; References tab for refernces we recommend.'
   },
   {
-    title: 'Bvrit portal',
-    link: 'https://bvrit.edu.in',
+    title: 'When will this be ready ?',
+    link: '#',
     description:
-      'Webpage for all the important stuff regarding students'
+      'IT IS READY and we appreciate the wait'
   },
   {
-    title: 'something important',
-    link: 'https://youtu.be/dQw4w9WgXcQ',
+    title: 'How to join the club ?',
+    link: '#',
     description:
-      "Somethings are just important than others"
+      'using links availables in the about section  for more information contact us'
+  },
+  
+  {
+    title: 'More Queries ?',
+    link: '#',
+    description:
+      "Contact us. We are happy to help."
   }
 ];
 
