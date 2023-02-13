@@ -25,6 +25,7 @@
     "eslint-config-next": "13.1.6",
     "express": "^4.18.2",
     "express-jwt": "^8.0",
+    "framer-motion": "^9.0.2",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "helmet": "^6.0.1",

@@ -1,9 +1,6 @@
 import { Row, Col } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useRouter } from 'next/router';
-import eventData from '../utils/eventData';
 import Link from 'next/link';
-import MoreStories from './more-stories';
 import PostPreview from './post-preview'
 
 

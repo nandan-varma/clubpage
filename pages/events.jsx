@@ -1,6 +1,6 @@
 import { Inter } from '@next/font/google'
-import EventTable from '../components/EventTable'
 import { getAllPosts } from '../utils/eventApi'
+import EventTable from '../components/EventTable'
 
 export default function Events({ allPosts }) {
   return (
