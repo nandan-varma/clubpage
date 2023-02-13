@@ -30,27 +30,27 @@ const NavBar = () => {
           <NavbarToggler onClick={toggle} data- />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar data->
-              <NavItem  onClick={toggle}>
+              <NavItem>
                 <PageLink href="/" className="nav-link" >
                   Home
                 </PageLink>
               </NavItem>
                 <>
-                  <NavItem  onClick={toggle}>
+                  <NavItem>
                     <PageLink href="/events" className="nav-link" >
                       Events
                     </PageLink>
                   </NavItem>
-                  <NavItem  onClick={toggle}>
+                  <NavItem>
                     <PageLink href="/references" className="nav-link" >
                     References
                     </PageLink>
                   </NavItem>
-                  <NavItem  onClick={toggle}>
+                  <NavItem>
                     <PageLink href="/about" className="nav-link" >
                       About
                     </PageLink>
-                  </NavItem>
+                  </NavItem>  
                 </>
               
             </Nav>

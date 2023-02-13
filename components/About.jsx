@@ -6,7 +6,7 @@ const About = () => (
   <div className="hero text-center head" data->
     <Logo  />
     <h1 className="mb-4" data->
-      CLUB WEBPAGE
+      Met@rics
     </h1>
 
     <p className="lead" data-><b>

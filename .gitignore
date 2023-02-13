@@ -12,6 +12,10 @@
 /.next/
 /out/
 
+#binaries
+/bin
+/club-webpage
+
 # production
 /build
 

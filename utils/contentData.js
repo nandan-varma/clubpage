@@ -12,7 +12,7 @@ const contentData = [
       'Events tab for events; References tab for refernces we recommend.'
   },
   {
-    title: 'When will this be ready ?',
+    title: 'When will the club be ready ?',
     link: '#',
     description:
       'IT IS READY and we appreciate the wait'
@@ -23,7 +23,12 @@ const contentData = [
     description:
       'using links availables in the about section  for more information contact us'
   },
-  
+  {
+    title: 'Is this it ?',
+    link: '#',
+    description:
+      'No we are in process of importing resources for events and references'
+  },
   {
     title: 'More Queries ?',
     link: '#',
