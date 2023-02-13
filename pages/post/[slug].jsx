@@ -1,12 +1,12 @@
 import { getAllPosts , getPostBySlug } from '../../utils/blogApi'
 import markdownToHtml from '../../utils/markdownToHtml'
 import {Router , useRouter} from 'next/router'
-
+import ErrorMessage from '../../components/ErrorMessage'
   
   export default function Post({ post, morePosts, preview }) {
     const router = useRouter()
     if (!router.isFallback && !post?.slug) {
-      return <ErrorPage statusCode={404} />
+      return <ErrorMessage>404 : Cant find the required page</ErrorMessage>
     }
     return (
         <>
