@@ -1,11 +1,11 @@
 import { Inter } from '@next/font/google'
 import { getAllPosts } from '../utils/eventApi'
-import EventTable from '../components/EventTable'
+import Table from '../components/Table'
 
 export default function Events({ allPosts }) {
   return (
     <>
-      <EventTable posts={ allPosts } />
+      <Table TableName={'Events'} posts={ allPosts } />
     </>
   )
 }

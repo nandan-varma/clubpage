@@ -16,7 +16,7 @@ import PostPreview from './post-preview'
 
   
 
-const EventTable = ({ posts }) => {
+const Table = ({TableName , posts }) => {
   return (
     // <MoreStories posts={posts} />
     <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
@@ -24,7 +24,7 @@ const EventTable = ({ posts }) => {
     <div class="row">
       <div class="section-header text-center">
         <h2 class="fw-bold fs-1">
-          Events
+          {TableName}
         </h2>
       </div>
     </div>
@@ -54,4 +54,4 @@ const EventTable = ({ posts }) => {
 );
       }
 
-export default EventTable;
+export default Table;
