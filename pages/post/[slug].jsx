@@ -2,6 +2,8 @@ import { getAllPosts , getPostBySlug } from '../../utils/blogApi'
 import markdownToHtml from '../../utils/markdownToHtml'
 import {Router , useRouter} from 'next/router'
 import ErrorMessage from '../../components/ErrorMessage'
+import Head from 'next/head'
+
   
   export default function Post({ post, morePosts, preview }) {
     const router = useRouter()
@@ -10,8 +12,11 @@ import ErrorMessage from '../../components/ErrorMessage'
     }
     return (
         <>
-            <div>{post.title}</div>
-            <div>{post.date}</div>
+            <Head><title>{post.title}</title></Head>
+            <div className='d-flex justify-content-between'>
+            <h1 className='p-3'>{post.title}</h1>
+            <div className='p-5'>{post.date}</div>
+            </div>
             <div>
       <div
         dangerouslySetInnerHTML={{ __html: post.content }}

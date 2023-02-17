@@ -5,7 +5,6 @@ export default function References() {
   return (
     <>
       <Content />
-      <hr />
     </>
   )
 }

@@ -1,124 +1,125 @@
-
 .sec-icon {
-    position: relative;
-    display: inline-block;
-    padding: 0;
-    margin: 0 auto;
-  }
-  
-  .sec-icon::before {
-    content: "";
-    position: absolute;
-    height: 1px;
-    left: -70px;
-    margin-top: -5.5px;
-    top: 60%;
-    background: transparent;
-    width: 50px;
-  }
-  
-  .sec-icon::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    right: -70px;
-    margin-top: -5.5px;
-    top: 60%;
-    background: #333;
-    width: 50px;
-  }
-  
-  .advertisers-service-sec {
-    background-color: rgba(185, 185, 185, 0.0);
-    border-radius: 24px;
-  }
-  
-  .advertisers-service-sec span {
-    color: rgb(255, 255, 255);
-  }
-  
-  .advertisers-service-sec .col {
-    padding: 0 1em 1em 1em;
-    text-align: center;
-  }
-  
-  .advertisers-service-sec .service-card {
-    width: 100%;
-    height: 100%;
-    padding: 2em 1.5em;
-    border-radius: 12px;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-    transition: 0.5s;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
-    background: rgba(211, 211, 211, 0.2);
-  }
-  
-  .advertisers-service-sec .service-card::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0), rgba(216, 216, 216, 0.3));
-    position: absolute;
-    left: 0%;
-    top: -98%;
-    z-index: -2;
-    transition: all 0.4s cubic-bezier(0.77, -0.04, 0, 0.99);
-  }
-  
-  .advertisers-service-sec h3 {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 600;
-    color: #ffffff;
-    margin: 1em 0;
-    z-index: 3;
-    
-  }
-  
-  .advertisers-service-sec p {
-    color: #ffffff;
-    font-size: 15px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-    z-index: 3;
-    
-  }
-  
-  .advertisers-service-sec .icon-wrapper {
-    background-color: #000000;
-    position: relative;
-    margin: auto;
-    font-size: 30px;
-    height: 2.5em;
-    width: 2.5em;
-    color: #ffffff;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    transition: 0.5s;
-    z-index: 3;
-  }
-  
-  .advertisers-service-sec .service-card:hover:after {
-    top: 0%;
-  }
-  
-  .service-card .icon-wrapper {
-    background-color: #ffffff;
-    color: rgb(255, 255, 255);
-  }
-  
-  .advertisers-service-sec .service-card:hover .icon-wrapper {
-    color: #ffffff;
-  }
-  
-  .advertisers-service-sec .service-card:hover h3 {
-    color: #ffffff;
-  }
-  
-  .advertisers-service-sec .service-card:hover p {
-    color: #ffffff;
-  }
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.sec-icon::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: -70px;
+  margin-top: -5.5px;
+  top: 60%;
+  background: transparent;
+  width: 50px;
+}
+
+.sec-icon::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  right: -70px;
+  margin-top: -5.5px;
+  top: 60%;
+  background: #333;
+  width: 50px;
+}
+
+.advertisers-service-sec {
+  border-radius: 24px;
+}
+
+.advertisers-service-sec span {
+  color: rgb(255, 255, 255);
+}
+
+.advertisers-service-sec .col {
+  padding: 0 1em 1em 1em;
+  text-align: center;
+}
+
+.advertisers-service-sec .service-card {
+  width: 100%;
+  height: 100%;
+  padding: 2em 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: 0.5s;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-decoration: none;
+}
+
+.advertisers-service-sec .service-card::after {
+  color: white;
+  content: "";
+  width: 100%;
+  height: 200%;
+  background: linear-gradient(rgba(100, 100, 100, 0.4), rgba(34, 34, 34, 0.9));
+  position: absolute;
+  left: 0%;
+  top: -100%;
+  z-index: -2;
+  transition: all 0.4s cubic-bezier(0.77, -0.04, 0, 0.99);
+}
+
+.advertisers-service-sec h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 1em 0;
+  z-index: 3;
+
+}
+
+.advertisers-service-sec p {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  z-index: 3;
+
+}
+
+.advertisers-service-sec .icon-wrapper {
+  background-color: #000000;
+  position: relative;
+  margin: auto;
+  font-size: 30px;
+  height: 2.5em;
+  width: 2.5em;
+  color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.advertisers-service-sec .service-card:hover:after {
+  top: 0%;
+}
+
+.service-card .icon-wrapper {
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+}
+
+.advertisers-service-sec .service-card:hover .icon-wrapper {
+  color: #ffffff;
+}
+
+.advertisers-service-sec .service-card:hover h3 {
+  color: #ffffff;
+}
+
+.advertisers-service-sec .service-card:hover p {
+  color: #ffffff;
+}
