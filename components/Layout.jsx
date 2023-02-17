@@ -11,10 +11,10 @@ const Layout = ({ children }) => (
     <Head>
       <title>Webpage</title>
     </Head>
-    <main id="app" className="d-flex flex-column h-100" data->
+    <main id="app" className="d-flex flex-column h-100 mb-5" data->
       <NavBar />
       <Transiton>
-      <Container className="mt-5">{children}</Container>
+      <Container className="mt-5 mb-5">{children}</Container>
       </Transiton>
       <Footer />
     </main>
