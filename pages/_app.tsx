@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '@/styles/globals.css'
 import bg from '../public/wallpaper.jpg'
 import '../styles/styles.css'
+import '../styles/cards.css'
 import initFontAwesome from '../utils/initFontAwesome';
 
 initFontAwesome();

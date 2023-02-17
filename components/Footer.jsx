@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 
 const Footer = () => (
-  <footer className="bg-light text-center" data->
+  <div className="footer bg-light text-center" data->
     {/* <Image
                 src="/logo.svg"
                 alt="Club Logo"
@@ -20,7 +20,7 @@ const Footer = () => (
       <a className="p-2" href="">Whatsapp</a>
       
     </p>
-  </footer>
+  </div>
 );
 
 export default Footer;

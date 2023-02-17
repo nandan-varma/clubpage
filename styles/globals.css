@@ -103,7 +103,11 @@ p code {
 }
 
 #__next {
-  height: 100%;
+  min-height: 100%;
+}
+
+#app{
+  display: inline-block;
 }
 
 #nav-mobile {
