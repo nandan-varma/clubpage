@@ -34,7 +34,7 @@ const Table = ({TableName , posts , category }) => {
         <div class="service-card" style={{backgroundImage : "url("+post.coverImage+")",backgroundSize: 'cover'}}>
         <Link
           as={`/${category}/${post.slug}`}
-          href={"/"+{category}+"/[slug]"}
+          href={`/${category}/[slug]`}
           className="hover:underline"
         >
           <PostPreview

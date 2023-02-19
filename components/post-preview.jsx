@@ -26,13 +26,13 @@ const PostPreview = ({
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div> */}
       <h3 className="text-3xl mb-3 leading-snug">
-        <Link
+        {/* <Link
           as={`/event/${slug}`}
           href="/event/[slug]"
           className="hover:underline"
-        >
+        > */}
           {title}
-        </Link>
+        {/* </Link> */}
       </h3>
       <div className="mb-4">
         <DateFormatter dateString={date} />

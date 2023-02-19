@@ -181,7 +181,7 @@ a {
 
 pre{
   color: white;
-  background-color: rgb(92, 92, 92);
+  background-color: rgba(42, 42, 42,00.7);
   padding: 10px;
-  border-radius: 24px;
+  border-radius: 8px;
 }

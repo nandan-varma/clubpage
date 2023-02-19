@@ -11,7 +11,15 @@ author:
 ## Why ?
   Somethings needs to be in one place so we created one such place
 
+## How ?
+  Using Magic
 
-Random Quote to look cool:  
+## What ?
+  What ?
+
+## When ?
+  Now
+
+## Random Quote to look cool:  
  "I wasted time, and now doth time waste me"   
   -- Shakespeare 
