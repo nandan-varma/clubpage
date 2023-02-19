@@ -3,7 +3,7 @@ const contentData = [
     title: 'What is this for?',
     link: '#',
     description:
-      'Club webpage which might be helpful to reach your final goal ;)'
+      'Somethings needs to be in one place so we created one such place'
   },
   {
     title: 'How to use this webpage?',

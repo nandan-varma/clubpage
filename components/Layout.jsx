@@ -9,7 +9,7 @@ import Transiton from '../components/Transition'
 const Layout = ({ children }) => (
   <>
     <Head>
-      <title>Webpage</title>
+      <title>Met@rics</title>
     </Head>
     <main id="app" className="d-flex flex-column h-100 mb-5" data->
       <NavBar />

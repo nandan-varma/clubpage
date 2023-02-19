@@ -175,3 +175,13 @@ a {
   text-decoration: none;
 }
 
+.pagecontent{
+  padding: 3rem;
+}
+
+pre{
+  color: white;
+  background-color: rgb(92, 92, 92);
+  padding: 10px;
+  border-radius: 24px;
+}

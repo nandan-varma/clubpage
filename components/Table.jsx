@@ -16,7 +16,7 @@ import PostPreview from './post-preview'
 
   
 
-const Table = ({TableName , posts }) => {
+const Table = ({TableName , posts , category }) => {
   return (
     // <MoreStories posts={posts} />
     <section id="advertisers" class="advertisers-service-sec pt-5 pb-5">
@@ -33,8 +33,8 @@ const Table = ({TableName , posts }) => {
         <div key={i} class="col event">
         <div class="service-card" style={{backgroundImage : "url("+post.coverImage+")",backgroundSize: 'cover'}}>
         <Link
-          as={`/event/${post.slug}`}
-          href="/event/[slug]"
+          as={`/${category}/${post.slug}`}
+          href={"/"+{category}+"/[slug]"}
           className="hover:underline"
         >
           <PostPreview

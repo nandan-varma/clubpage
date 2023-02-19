@@ -3,6 +3,7 @@ import markdownToHtml from '../../utils/markdownToHtml'
 import {Router , useRouter} from 'next/router'
 import ErrorMessage from '../../components/ErrorMessage'
 import Head from 'next/head'
+import DateFormatter from '../../components/date-formatter'
 
   
   export default function Post({ post, morePosts, preview }) {
@@ -15,10 +16,10 @@ import Head from 'next/head'
             <Head><title>{post.title}</title></Head>
             <div className='d-flex justify-content-between'>
             <h1 className='p-3'>{post.title}</h1>
-            <div className='p-5'>{post.date}</div>
+            <div className='p-5'><DateFormatter dateString={post.date}></DateFormatter></div>
             </div>
             <div>
-      <div
+      <div className='pagecontent'
         dangerouslySetInnerHTML={{ __html: post.content }}
       />
     </div>

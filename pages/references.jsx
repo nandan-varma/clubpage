@@ -5,7 +5,7 @@ import Table from '../components/Table'
 export default function Events({ allPosts }) {
   return (
     <>
-      <Table TableName={'Recent Posts'} posts={ allPosts } />
+      <Table TableName={'Recent Posts'} posts={ allPosts } category={'post'} />
     </>
   )
 }

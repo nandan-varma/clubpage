@@ -7,11 +7,9 @@
     box-sizing: border-box;
     /* text-shadow: 0rem 0.6rem 1.2rem grey; */
     font-family: 'Poppins', sans-serif;
-    text-align: center;
 }
 
 body {
-    text-align: center;
     margin: auto;
     /* background-image: url(../ds-wp2.jpg); */
     /* background-size: cover; */
