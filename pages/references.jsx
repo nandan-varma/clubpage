@@ -9,7 +9,7 @@ export default function Events({ allPosts }) {
     </>
   )
 }
-  export const getStaticProps = async () => {
+  export const getServerSideProps = async () => {
     const allPosts = getAllPosts([
       'title',
       'date',

@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 
-const Logo = ({ testId }) => (
-  <figure className="" title="Club Logo" data-testid={testId}>
+const Logo = () => (
+  <figure className="" title="Club Logo">
     <Image
                 src="/logo.svg"
                 alt="Club Logo"
