@@ -5,6 +5,9 @@ coverImage: 'https://i.imgur.com/uHdfljz.jpeg'
 date: '2023-02-19T13:03:20Z'
 author:
   name: Nandan Varma
+  picture: '/assets/blog/authors/nv.jpeg'
+ogImage:
+  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 # Getting Started: How to Use Our Webpage to Access Event Details and References
 

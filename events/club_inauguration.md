@@ -1,10 +1,13 @@
 ---
-title: 'Celebrating the Inauguration of Metarics Club'
+title: Celebrating the Inauguration of Metarics Club
 excerpt: 'We are excited to announce the inauguration of Metarics, our new club '
 coverImage: 'https://i.imgur.com/5R1Y2YM.jpeg'
 date: '2023-02-22T17:52:48Z'
 author:
   name: Nandan Varma
+  picture: '/assets/blog/authors/nv.jpeg'
+ogImage:
+  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
 # Announcement

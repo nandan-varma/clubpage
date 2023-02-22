@@ -1,10 +1,13 @@
 ---
-title: 'Promethean'
-excerpt: 'Promethean: Celebrating Our College's 25 Year Anniversary with 10 Exciting Events!'
-coverImage: 'https://i.imgur.com/TBD4wT5.png'
-date: '2020-03-16T05:35:07.322Z'
+title: Promethean
+excerpt: "Celebrating Our College's 25 Year Anniversary with 10 Exciting Events!"
+coverImage: 'https://i.imgur.com/RWk8dtk.jpg'
+date: '2023-02-22T17:52:48Z'
 author:
   name: Nandan Varma
+  picture: '/assets/blog/authors/nv.jpeg'
+ogImage:
+  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
 # Promethean

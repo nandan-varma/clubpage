@@ -5,6 +5,9 @@ coverImage: '/assets/blog/hello-world/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
 author:
   name: Nandan Varma
+  picture: '/assets/blog/authors/nv.jpeg'
+  ogImage:
+url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
 At Metarics, our goal is to create a supportive and inclusive environment for all students. We understand that college can be a challenging and overwhelming time, and that's why we're here to help. If you have questions about your field of study, need recommendations for materials, or just want to connect with us, we encourage you to reach out. In this post, we'll explore some of the ways you can communicate with us and stay connected.

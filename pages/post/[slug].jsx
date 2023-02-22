@@ -35,6 +35,7 @@ import DateFormatter from '../../components/date-formatter'
       'author',
       'content',
       'coverImage',
+      'ogImage'
     ])
     const content = await markdownToHtml(post.content || '')
   

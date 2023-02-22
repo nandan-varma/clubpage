@@ -1,10 +1,13 @@
 ---
-title: 'Join our Two-Day Hackathon on Data Science Techniques (Project Flow) with NetClan'
+title: Join our Two-Day Hackathon on Data Science Techniques (Project Flow) with NetClan
 excerpt: 'Join our Two-Day Hackathon on Data Science Techniques (Project Flow) with NetClan'
 coverImage: 'https://i.imgur.com/G3097rq.jpg'
 date: '2023-02-22T17:52:48Z'
 author:
   name: Nandan Varma
+  picture: '/assets/blog/authors/nv.jpeg'
+ogImage:
+  url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 # Introduction
 Are you passionate about data science and want to showcase your skills? Join our upcoming hackathon on data science techniques and learn from industry experts and professionals. This two-day event will take place on the 22nd and 23rd of February 2023 and is sponsored by NetClan, a leading provider of data-driven solutions.
