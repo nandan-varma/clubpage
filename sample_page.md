@@ -7,7 +7,6 @@ date: '2023-02-19T13:03:20Z'
 author:
   name: Nandan Varma
   picture: '/assets/blog/authors/nv.jpeg'
-html:
 ---
 <!-- You can use markdown for styling https://quickref.me/markdown -->
 # Sample H1 title
