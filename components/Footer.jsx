@@ -15,6 +15,7 @@ const Footer = () => (
       <br/>
       Follow Us
       <br/>
+      <a className="p-2" href="mailto:metarics2022@gmail.com">Mail</a>
       <a className="p-2" href="https://instagram.com/metarics_bvrit">Instagram</a>
       <a className="p-2" href="https://chat.whatsapp.com/CXPQrjTqdJFLKAlcyONjTO">Whatsapp</a>
     </p>

@@ -227,7 +227,6 @@ body {
     text-align: center;
     /* padding: 2px; */
     display: inline-block;
-    position: relative;
     position:absolute;
     bottom: 0;
     font-size: 0.8rem;
