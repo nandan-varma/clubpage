@@ -12,7 +12,6 @@ const About = () => (
     <p className="lead" data-><b>
     Welcome to the Met@rics Club!
 <br></br>
-Welcome to our club!
 
 Our club is a platform for students to come together and share their knowledge and skills in various fields. We aim to provide opportunities for students to enhance their academic and personal growth through events, workshops, and other activities.
 

@@ -218,16 +218,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .clubLogo {
-    filter: invert(1);
-  }
-
-  .logo,
-  .subLogo img {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
 
 @keyframes rotate {
   from {

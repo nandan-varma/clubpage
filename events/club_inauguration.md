@@ -13,7 +13,8 @@ ogImage:
 # Announcement
 We are excited to announce the inauguration of Metarics, our new club aimed at reaching out and communicating with our students. As part of our ongoing efforts to improve communication and engagement with students, Metarics is a platform that will allow us to share the latest updates and important information about current events and other happenings on campus.
 
-
+<!-- ![event invite](https://i.imgur.com/wIHZM1W.png)
+![event invite](https://i.imgur.com/0Np7c59.png) -->
 
 ## Metarics
 Metarics is a club that is open to all students, regardless of their major or area of study. Our goal is to create an inclusive and welcoming environment where students can connect with each other and with the administration to stay informed and engaged.
