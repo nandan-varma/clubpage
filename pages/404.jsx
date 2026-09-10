@@ -1,4 +1,4 @@
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import ErrorMessage from '../components/ErrorMessage';
 
 const inter = Inter({ subsets: ['latin'] })

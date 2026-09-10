@@ -1,4 +1,4 @@
-import { Inter } from '@next/font/google'
+import { Inter } from 'next/font/google'
 import { getAllPosts } from '../utils/eventApi'
 import Table from '../components/Table'
 
