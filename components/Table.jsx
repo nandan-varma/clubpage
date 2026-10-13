@@ -31,7 +31,7 @@ const Table = ({TableName , posts , category }) => {
     <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center" data->
       {posts.map((post, i) => (
         <div key={i} class="col event">
-        <div class="service-card" style={{backgroundImage : "url("+post.coverImage+")",backgroundSize: 'cover'}}>
+        <div class="service-card" style={{backgroundImage : `url(${JSON.stringify(post.coverImage)})`,backgroundSize: 'cover'}}>
         <Link
           as={`/${category}/${post.slug}`}
           href={`/${category}/[slug]`}
