@@ -45,7 +45,7 @@ const Table = ({TableName , posts , category }) => {
         <div key={i} class="col event">
         <div class="service-card" style={{backgroundImage : coverImageCss(post.coverImage),backgroundSize: 'cover'}}>
         <Link
-          as={`/${category}/${post.slug}`}
+          as={`/${encodeURIComponent(category)}/${encodeURIComponent(post.slug)}`}
           href={`/${category}/[slug]`}
           className="hover:underline"
         >
