@@ -3,6 +3,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
 import PostPreview from './post-preview'
 
+// Only allow absolute http(s) or site-relative image URLs into the CSS url().
+function coverImageCss(src) {
+  if (typeof src !== 'string') return undefined
+  try {
+    const url = new URL(src, 'https://placeholder.invalid')
+    if (url.protocol !== 'https:' && url.protocol !== 'http:') return undefined
+    return `url("${encodeURI(src)}")`
+  } catch {
+    return undefined
+  }
+}
+
 {/* <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
       <div class="col">
         <div class="service-card">
@@ -31,7 +43,7 @@ const Table = ({TableName , posts , category }) => {
     <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center" data->
       {posts.map((post, i) => (
         <div key={i} class="col event">
-        <div class="service-card" style={{backgroundImage : `url(${JSON.stringify(post.coverImage)})`,backgroundSize: 'cover'}}>
+        <div class="service-card" style={{backgroundImage : coverImageCss(post.coverImage),backgroundSize: 'cover'}}>
         <Link
           as={`/${category}/${post.slug}`}
           href={`/${category}/[slug]`}
