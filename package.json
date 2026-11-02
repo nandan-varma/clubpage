@@ -20,7 +20,7 @@
     "concurrently": "^10.0.5",
     "cors": "^2.8.6",
     "date-fns": "^4.1.0",
-    "dotenv": "^17.4.2",
+    "dotenv": "^18.0.9",
     "eslint-config-next": "^16.4.4",
     "express": "^5.2.1",
     "express-jwt": "^8.5",
